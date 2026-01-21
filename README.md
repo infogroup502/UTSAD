@@ -21,3 +21,18 @@ The dependencies can be installed by:
 ```bash
 pip install -r requirements.txt
 ```
+
+
+## Code Description
+There are six files/folders in the source
+- data_factory: The preprocessing folder/file. All datasets preprocessing codes are here.
+- main.py: The main python file. You can adjustment all parameters in there.
+- metrics: There is the evaluation metrics code folder.
+- model: FADSD model folder
+- solver.py: Another python file.The testing processing is  in there
+
+## Usage
+1. Install Python 3.6, PyTorch >= 1.4.0
+2. Download the datasets
+3. To train and evaluate FADSD on a dataset, run the following command:
+```bash
